@@ -1,16 +1,54 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6724" systemVersion="14A389" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6711"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3735"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="8092"/>
     </dependencies>
     <scenes>
-        <!--Interface Controller-->
+        <!--Table View-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModuleProvider="target"/>
+                <controller id="AgC-eL-Hgc" customClass="tableView" customModule="BibleBooks_WatchKit_Extension">
+                    <items>
+                        <table alignment="left" id="Rg6-8p-8BC">
+                            <items>
+                                <tableRow identifier="cell" id="bR8-5k-2wk" customClass="row" customModule="BibleBooks_WatchKit_Extension">
+                                    <group key="rootItem" width="1" alignment="left" id="NgC-Nf-O30">
+                                        <items>
+                                            <label alignment="center" verticalAlignment="center" text="Test" textAlignment="center" id="ziu-ed-OmX"/>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="label" destination="ziu-ed-OmX" id="IB4-NQ-KLZ"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="table" destination="Rg6-8p-8BC" id="6g6-6f-buE"/>
+                    </connections>
+                </controller>
             </objects>
             <point key="canvasLocation" x="220" y="345"/>
+        </scene>
+        <!--Picker View-->
+        <scene sceneID="ue2-fr-xDB">
+            <objects>
+                <controller hidesWhenLoading="NO" id="tIV-5y-SaG" customClass="pickerView" customModule="BibleBooks_WatchKit_Extension">
+                    <items>
+                        <picker width="1" height="150" alignment="left" id="1iL-2I-hOm">
+                            <connections>
+                                <action selector="optionSelected:" destination="tIV-5y-SaG" id="I1G-YI-hdR"/>
+                            </connections>
+                        </picker>
+                    </items>
+                    <connections>
+                        <outlet property="picker" destination="1iL-2I-hOm" id="UYj-A0-fwh"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="469" y="345"/>
         </scene>
         <!--Static Notification Interface Controller-->
         <scene sceneID="AEw-b0-oYE">
@@ -31,7 +69,7 @@
         <!--Notification Controller-->
         <scene sceneID="ZPc-GJ-vnh">
             <objects>
-                <controller id="4sK-HA-Art" customClass="NotificationController" customModuleProvider="target"/>
+                <controller id="4sK-HA-Art" customClass="NotificationController" customModule="BibleBooks_WatchKit_App" customModuleProvider="target"/>
             </objects>
             <point key="canvasLocation" x="468" y="643"/>
         </scene>

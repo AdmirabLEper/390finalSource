@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D08A5911C1F4D96003BF1FA /* phoneTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D08A5901C1F4D96003BF1FA /* phoneTableView.swift */; settings = {ASSET_TAGS = (); }; };
+		1D08A5931C1F51BD003BF1FA /* tableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D08A5921C1F51BD003BF1FA /* tableView.swift */; settings = {ASSET_TAGS = (); }; };
+		1D08A5951C1F51C5003BF1FA /* pickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D08A5941C1F51C5003BF1FA /* pickerView.swift */; settings = {ASSET_TAGS = (); }; };
+		1D08A5971C1F522C003BF1FA /* row.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D08A5961C1F522C003BF1FA /* row.swift */; settings = {ASSET_TAGS = (); }; };
+		1D08A59B1C1F618C003BF1FA /* watchCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D08A59A1C1F618C003BF1FA /* watchCore.swift */; settings = {ASSET_TAGS = (); }; };
 		A7F3F27223B5819F245031EB /* Pods_BibleBooks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81E0E445462A760F7B9A8E97 /* Pods_BibleBooks.framework */; };
 		B88DCB951C1F184C00553071 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88DCB941C1F184C00553071 /* AppDelegate.swift */; };
 		B88DCB9A1C1F184C00553071 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B88DCB981C1F184C00553071 /* Main.storyboard */; };
@@ -84,6 +89,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1D08A5901C1F4D96003BF1FA /* phoneTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = phoneTableView.swift; sourceTree = "<group>"; };
+		1D08A5921C1F51BD003BF1FA /* tableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tableView.swift; sourceTree = "<group>"; };
+		1D08A5941C1F51C5003BF1FA /* pickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pickerView.swift; sourceTree = "<group>"; };
+		1D08A5961C1F522C003BF1FA /* row.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = row.swift; sourceTree = "<group>"; };
+		1D08A59A1C1F618C003BF1FA /* watchCore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = watchCore.swift; sourceTree = "<group>"; };
 		74CA0EAC7942DEA7D3CC037D /* Pods-BibleBooks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BibleBooks.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BibleBooks/Pods-BibleBooks.debug.xcconfig"; sourceTree = "<group>"; };
 		81E0E445462A760F7B9A8E97 /* Pods_BibleBooks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BibleBooks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B88DCB911C1F184C00553071 /* BibleBooks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BibleBooks.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -202,6 +212,7 @@
 				B88DCB9D1C1F184C00553071 /* LaunchScreen.storyboard */,
 				B88DCBA01C1F184C00553071 /* Info.plist */,
 				B88DCBF31C1F1E8400553071 /* PhoneCore.swift */,
+				1D08A5901C1F4D96003BF1FA /* phoneTableView.swift */,
 			);
 			path = BibleBooks;
 			sourceTree = "<group>";
@@ -243,6 +254,10 @@
 				B88DCBD51C1F184C00553071 /* Assets.xcassets */,
 				B88DCBD71C1F184C00553071 /* Info.plist */,
 				B88DCBCD1C1F184C00553071 /* Supporting Files */,
+				1D08A5921C1F51BD003BF1FA /* tableView.swift */,
+				1D08A5941C1F51C5003BF1FA /* pickerView.swift */,
+				1D08A5961C1F522C003BF1FA /* row.swift */,
+				1D08A59A1C1F618C003BF1FA /* watchCore.swift */,
 			);
 			path = "BibleBooks WatchKit Extension";
 			sourceTree = "<group>";
@@ -501,6 +516,7 @@
 				B88DCBF21C1F1D9E00553071 /* RegisterVC.swift in Sources */,
 				B88DCBF41C1F1E8400553071 /* PhoneCore.swift in Sources */,
 				B88DCB951C1F184C00553071 /* AppDelegate.swift in Sources */,
+				1D08A5911C1F4D96003BF1FA /* phoneTableView.swift in Sources */,
 				B88DCBF11C1F1D9E00553071 /* LoginVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -525,8 +541,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D08A5971C1F522C003BF1FA /* row.swift in Sources */,
 				B88DCBD41C1F184C00553071 /* NotificationController.swift in Sources */,
+				1D08A5931C1F51BD003BF1FA /* tableView.swift in Sources */,
 				B88DCBD21C1F184C00553071 /* ExtensionDelegate.swift in Sources */,
+				1D08A59B1C1F618C003BF1FA /* watchCore.swift in Sources */,
+				1D08A5951C1F51C5003BF1FA /* pickerView.swift in Sources */,
 				B88DCBD01C1F184C00553071 /* InterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -677,7 +697,7 @@
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
 		};
@@ -691,7 +711,7 @@
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
 		};
@@ -707,7 +727,7 @@
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
 		};
@@ -723,7 +743,7 @@
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
 		};
@@ -733,6 +753,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BibleBooks/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cuw.BibleBooks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -745,6 +766,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BibleBooks/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cuw.BibleBooks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -756,6 +778,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = BibleBooksTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cuw.BibleBooksTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -768,6 +791,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = BibleBooksTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cuw.BibleBooksTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -779,6 +803,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = BibleBooksUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cuw.BibleBooksUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -791,6 +816,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = BibleBooksUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cuw.BibleBooksUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";

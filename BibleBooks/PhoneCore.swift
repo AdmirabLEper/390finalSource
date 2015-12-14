@@ -11,5 +11,7 @@ import Parse
  
 class PhoneCore: NSObject
 {
-    static var currentUser:PFUser!
+    static var currentUser : PFUser!
+    static var guessesTable : UITableView!
+    static var guessesMade = [String]()
 }

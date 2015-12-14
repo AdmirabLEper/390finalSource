@@ -53,11 +53,12 @@ class LoginVC: UIViewController
                     // Do stuff after successful login.
                     PhoneCore.currentUser = user
                     print("successfully logged in")
+                    
                 }
                 else
                 {
                     // The login failed. Check error to see why.
-                    print("Error: \(error!.userInfo["error"]!)")
+                    //print("Error: \(error!.userInfo[error]!)")
                 }
             }
         }
